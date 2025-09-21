@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AI Search 🚀</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!-- Decorative glass orbs -->
+    <div class="glass-orb-1"></div>
+    <div class="glass-orb-2"></div>
+    
+    <div class="main">
+        <h1>What do you want to know today?</h1>
+        <div class="subtitle">Ask anything and explore answers powered by AI.</div>
+        <div class="searchbox">
+            <div class="input-container">
+                <input type="text" placeholder="Type your question here...">
+                <div class="gemini-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                </div>
+            </div>
+            <button>Click to Search</button>
+            <div class="response" id="gemini-response">Welcome! Enter your question above and click search to get AI-powered answers.</div>
+        </div>
+    </div>
+    <!-- Copyright Notice -->
+    <div class="copyright">
+        © 2025 Varun Rawat. All rights reserved.
+    </div>
+    <script type="importmap">
+    {
+        "imports": {
+            "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+    }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
